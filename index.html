@@ -16,18 +16,18 @@
 <body>
     <main>
         <div style="text-align: center;">
-            <p style="margin-bottom: 50px;">Parent with position not set</p>
+            <p style="margin-bottom: 50px;"><strong>Parent with position not set</strong></p>
             <div style="width: 32%; display: inline-block; margin: auto; height: 100px; position: relative;">
-                left: positon: relative;
-                <div style="position:absolute; top: 10px; left: 10px;">Inside Left. Position absolute top: 10px; left: 10px; This positions correctly as with position absolute parent has a position of relative.</div>
+                <strong>left: positon: relative;</strong>
+                <div style="position:absolute; top: 20px; left: 10px; color:red;">Inside Left. Position absolute top: 20px; left: 10px; This positions correctly as with position absolute parent has a position of relative.</div>
             </div>
             <div style="width: 32%; display: inline-block; margin: auto; height: 100px; position: relative;">
-                middle: positon: relative;
-                <div style="position:fixed; top: 10px; left: 10px;">Inside Middle. Position Fixed top: 10px; left: 10px; This is as intended</div>
+                <strong>middle: positon: relative;</strong>
+                <div style="position:fixed; top: 10px; left: 10px;; color:red;">Inside Middle. Position Fixed top: 10px; left: 10px; This is as intended</div>
             </div>
             <div style="width: 32%; display: inline-block; margin: auto; height: 100px;">
-                right: position not set
-                <div style="position:absolute; top: 40px; left: 40px;">Inside Right. Position absolute top: 40px; left: 40px; Parent doesn't have position so this doesn't work</div>
+                <strong>right: position not set</strong>
+                <div style="position:absolute; top: 40px; left: 40px;; color:red;">Inside Right. Position absolute top: 40px; left: 40px; Parent doesn't have position so this doesn't work</div>
             </div>
         </div>
     </main>
